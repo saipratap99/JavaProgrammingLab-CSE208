@@ -18,6 +18,7 @@ class Laptop{
     
     // Default contructor
     public Laptop(){
+        count++;
         this.cost = 0.00;
         this.CameraPixel = 00.0;
         this.ModelNumber = "XXXXXXXXXXX";
@@ -31,6 +32,7 @@ class Laptop{
     
     // 2 arguments constructor
     public Laptop(double cost, String manufacturer){
+        count++;
         this.cost = cost;
         this.CameraPixel = 5;
         this.ManufactureName = manufacturer;
@@ -44,6 +46,7 @@ class Laptop{
     
     // 3 arguments constructor
     public Laptop(double cost, String manufacturer,String color){
+        count++;
         this.cost = cost;
         this.CameraPixel = 5;
         this.ManufactureName = manufacturer;
